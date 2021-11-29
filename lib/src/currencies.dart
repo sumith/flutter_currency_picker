@@ -1,5 +1,18 @@
 //Order by Most traded currencies: https://en.wikipedia.org/wiki/Template:Most_traded_currencies
 List<Map<String, dynamic>> currencies = [
+    {
+    "code": "INR",
+    "name": "Indian Rupee",
+    "symbol": "₹",
+    "flag": "INR",
+    "decimal_digits": 2,
+    "number": 356,
+    "name_plural": "Indian rupees",
+    "thousands_separator": ",",
+    "decimal_separator": ".",
+    "space_between_amount_and_symbol": false,
+    "symbol_on_left": true,
+  },
   {
     "code": "USD",
     "name": "United States Dollar",
@@ -190,19 +203,6 @@ List<Map<String, dynamic>> currencies = [
     "decimal_digits": 2,
     "number": 484,
     "name_plural": "Mexican pesos",
-    "thousands_separator": ",",
-    "decimal_separator": ".",
-    "space_between_amount_and_symbol": false,
-    "symbol_on_left": true,
-  },
-  {
-    "code": "INR",
-    "name": "Indian Rupee",
-    "symbol": "₹",
-    "flag": "INR",
-    "decimal_digits": 2,
-    "number": 356,
-    "name_plural": "Indian rupees",
     "thousands_separator": ",",
     "decimal_separator": ".",
     "space_between_amount_and_symbol": false,
